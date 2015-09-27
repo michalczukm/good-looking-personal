@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+  <link rel="stylesheet" href="app/components/verticalTimeline/css/verticalTimeline.css">
   <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
   <!-- bower:css -->
   <!-- run `gulp inject` to automatically populate bower styles dependencies -->
@@ -29,35 +29,40 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" ng-controller="MainController as main">
 
     <header class="mdl-layout__header is-casting-shadow">
-        <div class="circular header-image"><img src="" alt="" /></div>
+      <div class="circular header-image">
+        <img src="" alt="" />
+      </div>
       <div class="mdl-layout__header-row header-main-info">
         <span class="mdl-layout-title">Michał Michalczuk</span>
         <div class="mdl-layout-spacer"></div>
-        <i class="fa fa-birthday-cake"></i><span>&nbsp;28.10.1988</span>
+        <i class="fa fa-birthday-cake"></i>
+        <span>&nbsp;28.10.1988</span>
         &nbsp;|&nbsp;
-        <i class="fa fa-home"></i><span>&nbsp;***REMOVED*** Gdańsk</span>
+        <i class="fa fa-home"></i>
+        <span>&nbsp;***REMOVED*** Gdańsk</span>
       </div>
     </header>
 
     <main class="mdl-layout__content">
       <div class="page-content">
-        <div class="acme-card-wide mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">'Allo, 'Allo!</h2>
-          </div>
-          <div class="mdl-card__supporting-text">
-            Always a pleasure scaffolding your apps.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                Splendid Toastr
-              </a>
-          </div>
-          <div class="mdl-card__menu">
-            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-              <i class=" fa fa-share-alt"></i>
-            </button>
-          </div>
+        <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+          <section id="cd-timeline" class="cd-container">
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <i class="fa fa-graduation-cap fa-2x"></i>
+              </div>
+              <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2>Title of section 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                <a href="#0" class="cd-read-more">Read more</a>
+                <span class="cd-date">Jan 14</span>
+              </div>
+              <!-- cd-timeline-content -->
+            </div>
+            <!-- cd-timeline-block -->
+          </section>
         </div>
         <div class="mdl-grid">
 
@@ -297,7 +302,8 @@
 
   </div>
 
-
+  <script src="app/components/verticalTimeline/verticalTimeline.js"></script>
+  <!-- Resource jQuery -->
   <!-- build:js(src) scripts/vendor.js -->
   <!-- bower:js -->
   <!-- run `gulp inject` to automatically populate bower script dependencies -->
