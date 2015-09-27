@@ -1,117 +1,318 @@
 <!doctype html>
 <html ng-app="gulp">
-  <head>
-    <meta charset="utf-8">
-    <title>gulp</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- run `gulp inject` to automatically populate bower styles dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
+<head>
+  <meta charset="utf-8">
+  <title>Michał Michalczuk</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css({.tmp/serve,src}) styles/app.css -->
-    <!-- inject:css -->
-    <!-- css files will be automatically insert here -->
-    <!-- endinject -->
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+  <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+  <!-- inject:css -->
+  <!-- css files will be automatically insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" ng-controller="MainController as main">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" ng-controller="MainController as main">
 
-      <header class="mdl-layout__header">
-        <acme-navbar creation-date="main.creationDate"></acme-navbar>
-      </header>
-
-      <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-        </nav>
+    <header class="mdl-layout__header is-casting-shadow">
+        <div class="circular" style="position: absolute;"><img src="" alt="" /></div>
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title mdl-badge" data-badge="mm">Michał Michalczuk</span>
+        <div class="mdl-layout-spacer"></div>
       </div>
+    </header>
 
-      <main class="mdl-layout__content">
-        <div class="page-content">
-          <div class="acme-card-wide mdl-card mdl-shadow--2dp">
-            <div class="mdl-card__title">
-              <h2 class="mdl-card__title-text">'Allo, 'Allo!</h2>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Always a pleasure scaffolding your apps.
-            </div>
-            <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="acme-card-wide mdl-card mdl-shadow--2dp">
+            <div class="circular" style="position: absolute;"><img src="" alt="" /></div>
+
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">'Allo, 'Allo!</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Always a pleasure scaffolding your apps.
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                 Splendid Toastr
               </a>
-            </div>
-            <div class="mdl-card__menu">
-              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-                <i class=" fa fa-share-alt"></i>
-              </button>
-            </div>
           </div>
-          <div class="mdl-grid">
+          <div class="mdl-card__menu">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class=" fa fa-share-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div class="mdl-grid">
 
-            <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop"
-            ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
-              <div class="acme-card-square mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title">
-                  <h2 class="mdl-card__title-text">{{ awesomeThing.title }}</h2>
-                </div>
-                <div class="mdl-card__media">
-                  <img ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
-                </div>
-                <div class="mdl-card__supporting-text">
-                  {{ awesomeThing.description }}
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" ng-href="{{ awesomeThing.url }}">
-                    Website
-                  </a>
-                </div>
+          <!-- Programming section -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
+            <div class="acme-card-square mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text"><i class="fa fa-code">/</i><i class="fa fa-database"></i>Programming/Databases</h3>
+              </div>
+              <div class="section__text mdl-card__supporting-text">
+                <ul>
+                  <li>
+                    <h5>C#
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Typescript
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Python
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Php
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Java
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>TSQL (MSSQL)
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>MySQL
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Sqlite
+                      <h5>
+                  </li>
+                  <span class="section__text">Moją główną technologią jest C#. W TypeScript aktualnie współtworzę serwerową usługę klasy ESB opartą o Node.js. Python-a używałem m. in. utrzymując portal w Django. Inne technologie w których wytwarzałem produkcyjnie kod: Php, Java,
+                    Js, ...</span>
+                </ul>
               </div>
             </div>
-
           </div>
-        </div>
-      </main>
+          <!-- End: Programming section -->
 
-      <footer class="mdl-mini-footer">
-        <div class="mdl-mini-footer__right-section">
-          <div class="mdl-logo">
-            With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']"></acme-malarkey>
+          <!-- Frameworks section -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
+            <div class="acme-card-square mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text"><i class="fa fa-cubes"></i>Frameworks</h3>
+              </div>
+              <div class="section__text mdl-card__supporting-text">
+                <ul>
+                  <li>
+                    <h5>Asp.net
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Wpf / Prism
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Silverlight
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Entity Framework, NHibernate
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Django
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Node.js
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>SqlAlchemy
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Knockout.js
+                      <h5>
+                  </li>
+                  <span class="section__text">Korzystałem z wielu rozwiązań w zależności od projektu. W każdym rozwiązaniu serwerowym preferuję używanie ORM, wyraźne rozdzielanie warstw aplikacji. Jeśli mogę wybieram podejście Domain Driven Development, CQRS oraz TDD na każdym kroku.</span>
+                </ul>
+              </div>
+            </div>
           </div>
+          <!-- End: Frameworks section -->
+
+          <!-- Development tools section -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
+            <div class="acme-card-square mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text"><i class="fa fa-code-fork"></i>Development tools</h3>
+              </div>
+              <div class="section__text mdl-card__supporting-text">
+                <ul>
+                  <li>
+                    <h5>Git
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Visual Studio + R#
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>PyCharm / PhpStorm
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Atom.io
+                      <h5>
+                  </li>
+                  <span class="section__text">Ulubione narzędzia, w zależności od technologii, bez których ciężko się obejść. CVS: Pracowałem również na SVN i Mercurial, jednak wybieram Git z którym pracuję też na co dzień.</span>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End: Development tools section -->
+
+          <!-- Tools section -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
+            <div class="acme-card-square mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text"><i class="fa fa-plug"></i>Tools</h3>
+              </div>
+              <div class="section__text mdl-card__supporting-text">
+                <ul>
+                  <li>
+                    <h5>Jira + Agile Board
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Stash (BitBucket Server)
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Confluence
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Bamboo / TeamCity
+                      <h5>
+                  </li>
+                  <span class="section__text">Na co dzień pracuję na narzędziach od Atlassian z których zarządzam pracą nad projektami, kodem i wiedzą. Do prywatnych projektów wybieram połączenie BitBucket + Trello.</span>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End: Tools section -->
+
+          <!-- Meet me section -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
+            <div class="acme-card-square mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text"><i class="fa fa-users"></i>Meet me</h3>
+              </div>
+              <div class="section__text mdl-card__supporting-text">
+                <ul>
+                  <li>
+                    <h5>Trójmiejska grupa Agile3M
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Meet.js
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Trójmiejska branżowa grupa .net
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>3City Global Game Jam
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>3Camp, Wroc#, InfoShare, FuckupNights ect.
+                      <h5>
+                  </li>
+                  <span class="section__text">Branżowo można mnie spotkać w paru miejscach</span>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End: Meet me section -->
+
+          <!-- Meet me after hours section -->
+          <div class="mdl-cell mdl-cell--12-col-phone mdl-cell--12-col-tablet mdl-cell--6-col-desktop">
+            <div class="acme-card-square mdl-card mdl-shadow--2dp">
+              <div class="mdl-card__title">
+                <h3 class="mdl-card__title-text"><i class="fa fa-gamepad"></i>Meet me after hours</h3>
+              </div>
+              <div class="section__text mdl-card__supporting-text">
+                <ul>
+                  <li>
+                    <h5>Off Festiwal, AudioRiver, Opener, trójmiejskie akcje kulturalne i koncerty
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Międzynarodowy Festiwal Gier i Komiksów w Łodzi, Bałtycki Festiwal Komiksu, Komiksowa Warszawa, Pyrkon
+                      <h5>
+                  </li>
+                  <li>
+                    <h5>Grającego na basie w MusicCollective
+                      <h5>
+                  </li>
+                  <span class="section__text">Po godzinach zgodnie z zainteresowaniami</span>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End: Meet me after hours section -->
+
+
         </div>
-      </footer>
+      </div>
+    </main>
 
-    </div>
+    <footer class="mdl-mini-footer">
+      <span>
+        WYRAŻAM ZGODĘ NA PRZETWARZANIE MOICH DANYCH OSOBOWYCH DLA POTRZEB NIEZBĘDNYCH DO REALIZACJI PROCESU REKRUTACJI (ZGODNIE Z USTAWĄ Z DN. 29.08.97 ROKU O OCHRONIE DANYCH OSOBOWYCH DZ. UST. NR 133 POZ.883).
+      </span>
+      <div class="mdl-mini-footer__right-section">
+        <div class="mdl-logo">
+        </div>
+      </div>
+    </footer>
+
+  </div>
 
 
-    <!-- build:js(src) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- run `gulp inject` to automatically populate bower script dependencies -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <!-- build:js(src) scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- run `gulp inject` to automatically populate bower script dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
-    <!-- inject:js -->
-    <!-- js files will be automatically insert here -->
-    <!-- endinject -->
+  <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+  <!-- inject:js -->
+  <!-- js files will be automatically insert here -->
+  <!-- endinject -->
 
-    <!-- inject:partials -->
-    <!-- angular templates will be automatically converted in js and inserted here -->
-    <!-- endinject -->
-    <!-- endbuild -->
+  <!-- inject:partials -->
+  <!-- angular templates will be automatically converted in js and inserted here -->
+  <!-- endinject -->
+  <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>
