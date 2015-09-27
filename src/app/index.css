@@ -101,8 +101,8 @@ section .section__text h5 {
 }
 
 .circular {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	border-radius: 75px;
 	-webkit-border-radius: 75px;
 	-moz-border-radius: 75px;
@@ -121,4 +121,24 @@ section .section__text h5 {
 
 .header-main-info {
     margin-left: 80px;
+}
+
+.cd-timeline-img.cd-work {
+  background: #B53F51;
+  color: white;
+}
+
+.cd-timeline-img.cd-work i {
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.cd-timeline-img.cd-education {
+  background: #51B53F;
+}
+
+/*overrite material css*/
+h2 {
+    line-height: normal;
+    margin: auto;
 }
