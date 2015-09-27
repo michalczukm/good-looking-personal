@@ -107,9 +107,18 @@ section .section__text h5 {
 	-webkit-border-radius: 75px;
 	-moz-border-radius: 75px;
 	background: url(../assets/images/mm.jpg) no-repeat;
+    background-size: 100% auto;
 	}
 
 .circular img {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}
+
+.header-image {
+    position: absolute;
+}
+
+.header-main-info {
+    margin-left: 80px;
+}
