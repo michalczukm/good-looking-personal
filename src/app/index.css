@@ -145,4 +145,7 @@ main {
         line-height: normal;
         margin: auto;
     }
+    h4 {
+        font-size: 20px;
+    }
 /*end: overrite material css*/
