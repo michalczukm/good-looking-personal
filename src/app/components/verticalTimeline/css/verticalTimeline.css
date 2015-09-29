@@ -154,7 +154,8 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
-    margin-left: 0;
+    margin-left: -1px;
+    margin-right: -1px;
     width: 45%;
   }
   .cd-timeline-content::before {

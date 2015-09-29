@@ -43,7 +43,10 @@ main {
   padding: 20px;
   background: #fafafa;
 }
-
+.skills {
+    max-width:1500px;
+    margin:0 auto;
+}
 .acme-card-wide.mdl-card {
   width: 100%;
 }
