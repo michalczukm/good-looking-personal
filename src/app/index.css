@@ -91,12 +91,11 @@ main {
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding-top: 8px;
-  /*padding: 16px;*/
+  font-size: 1.1em;
 }
 
-section .section__text h5 {
-  font-size: inherit;
-  margin: 0;
+.section__text h5 {
+  margin: 0 5px 10px;
   margin-bottom: 0.5em;
 }
 
@@ -142,7 +141,8 @@ section .section__text h5 {
 }
 
 /*overrite material css*/
-h2 {
-    line-height: normal;
-    margin: auto;
-}
+    h2 {
+        line-height: normal;
+        margin: auto;
+    }
+/*end: overrite material css*/
