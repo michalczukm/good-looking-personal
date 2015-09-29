@@ -91,7 +91,6 @@ main {
       -ms-flex-negative: 0;
           flex-shrink: 0;
   padding-top: 8px;
-  font-size: 1.1em;
 }
 
 .section__text h5 {
@@ -147,5 +146,9 @@ main {
     }
     h4 {
         font-size: 20px;
+    }
+    .mdl-card__supporting-text {
+        color: rgba(0,0,0,.87);
+        line-height: 1.6;
     }
 /*end: overrite material css*/
