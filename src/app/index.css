@@ -101,8 +101,8 @@ section .section__text h5 {
 }
 
 .circular {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border-radius: 75px;
 	-webkit-border-radius: 75px;
 	-moz-border-radius: 75px;
@@ -135,6 +135,10 @@ section .section__text h5 {
 
 .cd-timeline-img.cd-education {
   background: #51B53F;
+}
+
+.mdl-card__title-text > i {
+    margin: 0 10px;
 }
 
 /*overrite material css*/
