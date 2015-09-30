@@ -120,10 +120,14 @@ main {
     position: absolute;
 }
 
-.header-main-info {
-    margin-left: 80px;
+.header__main-info {
+    margin-left: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
 }
-
+.contact-personal-info {
+    margin-left: 150px;
+}
 .cd-timeline-img.cd-work {
   background: #B53F51;
   color: white;
@@ -141,6 +145,13 @@ main {
 .mdl-card__title-text > i {
     margin: 0 10px;
 }
+a.contact_m {
+    text-decoration: none;
+    color: #242F69;
+}
+a.contact_m:hover {
+    text-decoration: underline;
+}
 
 @media only screen and (max-width: 768px) {
     .mdl-mini-footer {
@@ -150,12 +161,25 @@ main {
     	width: 75px;
     	height: 75px;
     }
+    .header__main-info {
+        margin-left: 25px;
+        font-size: 1.3em;
+    }
+    .contact-personal-info {
+        margin: 25px 0;
+    }
+    .contact-personal-info > div {
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 1170px) {
     .circular {
         width: 100px;
         height: 100px;
+    }
+    .header__main-info {
+        margin-left: 25px;
     }
 }
 
@@ -175,7 +199,6 @@ footer {
         color: rgba(0,0,0,.87);
         line-height: 1.6;
     }
-
     .mdl-mini-footer {
         padding: 10px 16px;
     }
