@@ -80,11 +80,6 @@ main {
   background: none;
   text-align: center;
 }
-.acme-card-square > .mdl-card__media > img {
-  height: 100px;
-}
-
-
 .section__text {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -107,7 +102,7 @@ main {
 	border-radius: 75px;
 	-webkit-border-radius: 75px;
 	-moz-border-radius: 75px;
-	background: url(../assets/images/mm.jpg) no-repeat;
+	background: url(../assets/images/mm.png) no-repeat;
     background-size: 100% auto;
 	}
 
