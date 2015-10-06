@@ -43,6 +43,7 @@ main {
   padding: 20px;
   background: #fafafa;
 }
+
 .skills {
     max-width:1500px;
     margin:0 auto;
@@ -120,6 +121,9 @@ main {
     font-size: 1.5em;
     font-weight: 500;
 }
+.header__main-info span {
+    font-size: 0.5em;
+}
 .contact-personal-info {
     margin-left: 150px;
 }
@@ -196,5 +200,8 @@ footer {
     }
     .mdl-mini-footer {
         padding: 10px 16px;
+    }
+    a {
+        color: inherit;
     }
 /*end: overrite material css*/
