@@ -144,6 +144,7 @@ main {
     margin-left: 165px;
     margin-bottom: 40px;
     font-size: 1.3em;
+    line-height: 1.7em;
 }
 .cd-timeline-img.cd-work {
   background: #B53F51;
@@ -184,9 +185,14 @@ a.contact_m:hover {
     }
     .contact-personal-info {
         margin: 20px 0;
+        font-size: 1.2em;
+        line-height: 1.1em;
     }
     .contact-personal-info > div {
         margin-top: 10px;
+    }
+    .header-links {
+        display: none;
     }
 }
 
