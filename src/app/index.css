@@ -121,6 +121,9 @@ main {
 	-moz-border-radius: 75px;
 	background: url(../assets/images/mm.png) no-repeat;
     background-size: 100% auto;
+
+    /* ie fallbacks */
+	background-image: url(../assets/images/mm.png) no-repeat;
 	}
 
 .circular img {
