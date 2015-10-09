@@ -197,7 +197,9 @@ a.contact_m:hover {
         margin-left: 25px;
     }
 }
-
+.acme-card-square.mdl-card.no-additional-content-box {
+    min-height: 0;
+}
 footer {
     font-size: 1em;
 }
