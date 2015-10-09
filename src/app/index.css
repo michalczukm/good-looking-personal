@@ -141,7 +141,9 @@ main {
     font-size: 0.5em;
 }
 .contact-personal-info {
-    margin-left: 150px;
+    margin-left: 165px;
+    margin-bottom: 40px;
+    font-size: 1.3em;
 }
 .cd-timeline-img.cd-work {
   background: #B53F51;
@@ -181,7 +183,7 @@ a.contact_m:hover {
         font-size: 1.3em;
     }
     .contact-personal-info {
-        margin: 25px 0;
+        margin: 20px 0;
     }
     .contact-personal-info > div {
         margin-top: 10px;
@@ -192,6 +194,9 @@ a.contact_m:hover {
     .circular {
         width: 100px;
         height: 100px;
+    }
+    .contact-personal-info {
+        margin-left: 105px;
     }
     .header__main-info {
         margin-left: 25px;
