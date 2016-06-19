@@ -231,7 +231,7 @@ footer {
         line-height: 1.6;
     }
     .mdl-mini-footer {
-        padding: 10px 16px;
+        padding: 10px 16px 25px 16px;
     }
     a {
         color: inherit;
