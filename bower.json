@@ -4,7 +4,7 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "material-design-lite": "~1.0.4",
-    "font-awesome": "~4.4.0"
+    "font-awesome": "~4.6.3"
   },
   "resolutions": {
     "jquery": "~2.1.4"
