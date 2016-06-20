@@ -133,6 +133,7 @@ main {
 
 .header-image {
     position: absolute;
+    margin: 10px;
 }
 
 .header__main-info {
@@ -148,6 +149,16 @@ main {
     margin-bottom: 40px;
     font-size: 1.3em;
     line-height: 1.7em;
+}
+.contact-personal-info__contact__list {
+    padding: inherit;
+    margin: inherit;
+    overflow: auto;
+}
+.contact-personal-info__contact__list__element {
+    display: block;
+    float: left;
+    font-size: 1.3em;
 }
 .cd-timeline-img.cd-work {
   background: #B53F51;
